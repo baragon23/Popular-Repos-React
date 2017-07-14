@@ -11,7 +11,7 @@ function getProfile(username) {
 		});
 }
 
-function getRepos(usernamej) {
+function getRepos(username) {
 	return axios.get('https://api.github.com/users/' + username + '/repos' + params + '&per_page=100')
 }
 
